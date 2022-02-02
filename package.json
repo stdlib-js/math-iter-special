@@ -136,6 +136,7 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-to-iterator": "^0.0.x",
     "@stdlib/assert-is-iterator-like": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/iter-linspace": "^0.0.x",
@@ -240,7 +241,6 @@
     "@stdlib/math-iter-ops-add": "^0.0.x",
     "@stdlib/math-iter-tools-map": "^0.0.x",
     "@stdlib/math-iter-tools-map2": "^0.0.x",
-    "@stdlib/random-base-uniform": "^0.0.x",
     "@stdlib/random-iter-discrete-uniform": "^0.0.x",
     "@stdlib/random-iter-randu": "^0.0.x",
     "@stdlib/random-iter-uniform": "^0.0.x",
