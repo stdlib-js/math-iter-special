@@ -35,25 +35,30 @@ limitations under the License.
 
 > Math iterators for special functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-special
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-special/tags). For example,
-
-```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@v0.1.0-esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { iterAbs, iterAbs2, iterAcos, iterAcosh, iterAcot, iterAcoth, iterAcovercos, iterAcoversin, iterAhavercos, iterAhaversin, iterAsin, iterAsinh, iterAtan, iterAtan2, iterAtanh, iterAvercos, iterAversin, iterBesselj0, iterBesselj1, iterBessely0, iterBessely1, iterBeta, iterBetaln, iterBinet, iterCbrt, iterCeil, iterCeil10, iterCeil2, iterCos, iterCosh, iterCosm1, iterCospi, iterCovercos, iterCoversin, iterDeg2rad, iterDigamma, iterDiracDelta, iterEllipe, iterEllipk, iterErf, iterErfc, iterErfcinv, iterErfinv, iterEta, iterExp, iterExp10, iterExp2, iterExpit, iterExpm1, iterExpm1rel, iterFactorial, iterFactorialln, iterFloor, iterFloor10, iterFloor2, iterFresnelc, iterFresnels, iterGamma, iterGamma1pm1, iterGammaln, iterHacovercos, iterHacoversin, iterHavercos, iterHaversin, iterInv, iterLn, iterLog, iterLog10, iterLog1mexp, iterLog1p, iterLog1pexp, iterLog2, iterLogit, iterPow, iterRad2deg, iterRamp, iterRound, iterRound10, iterRound2, iterRsqrt, iterSignum, iterSin, iterSinc, iterSinh, iterSinpi, iterSpence, iterSqrt, iterSqrt1pm1, iterTan, iterTanh, iterTrigamma, iterTrunc, iterTrunc10, iterTrunc2, iterVercos, iterVersin, iterZeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@esm/index.mjs';
+var ns = require( '@stdlib/math-iter-special' );
 ```
 
 #### ns
@@ -185,20 +190,11 @@ The namespace contains the following functions for creating iterator protocol-co
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-iter-special' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -222,7 +218,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -252,8 +248,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-iter-special.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-iter-special
 
-[test-image]: https://github.com/stdlib-js/math-iter-special/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-iter-special/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-iter-special/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-iter-special/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-iter-special/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-iter-special?branch=main
@@ -284,199 +280,199 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/iter/special/abs]: https://github.com/stdlib-js/math-iter-special-abs/tree/esm
+[@stdlib/math/iter/special/abs]: https://github.com/stdlib-js/math-iter-special-abs
 
-[@stdlib/math/iter/special/abs2]: https://github.com/stdlib-js/math-iter-special-abs2/tree/esm
+[@stdlib/math/iter/special/abs2]: https://github.com/stdlib-js/math-iter-special-abs2
 
-[@stdlib/math/iter/special/acos]: https://github.com/stdlib-js/math-iter-special-acos/tree/esm
+[@stdlib/math/iter/special/acos]: https://github.com/stdlib-js/math-iter-special-acos
 
-[@stdlib/math/iter/special/acosh]: https://github.com/stdlib-js/math-iter-special-acosh/tree/esm
+[@stdlib/math/iter/special/acosh]: https://github.com/stdlib-js/math-iter-special-acosh
 
-[@stdlib/math/iter/special/acot]: https://github.com/stdlib-js/math-iter-special-acot/tree/esm
+[@stdlib/math/iter/special/acot]: https://github.com/stdlib-js/math-iter-special-acot
 
-[@stdlib/math/iter/special/acoth]: https://github.com/stdlib-js/math-iter-special-acoth/tree/esm
+[@stdlib/math/iter/special/acoth]: https://github.com/stdlib-js/math-iter-special-acoth
 
-[@stdlib/math/iter/special/acovercos]: https://github.com/stdlib-js/math-iter-special-acovercos/tree/esm
+[@stdlib/math/iter/special/acovercos]: https://github.com/stdlib-js/math-iter-special-acovercos
 
-[@stdlib/math/iter/special/acoversin]: https://github.com/stdlib-js/math-iter-special-acoversin/tree/esm
+[@stdlib/math/iter/special/acoversin]: https://github.com/stdlib-js/math-iter-special-acoversin
 
-[@stdlib/math/iter/special/ahavercos]: https://github.com/stdlib-js/math-iter-special-ahavercos/tree/esm
+[@stdlib/math/iter/special/ahavercos]: https://github.com/stdlib-js/math-iter-special-ahavercos
 
-[@stdlib/math/iter/special/ahaversin]: https://github.com/stdlib-js/math-iter-special-ahaversin/tree/esm
+[@stdlib/math/iter/special/ahaversin]: https://github.com/stdlib-js/math-iter-special-ahaversin
 
-[@stdlib/math/iter/special/asin]: https://github.com/stdlib-js/math-iter-special-asin/tree/esm
+[@stdlib/math/iter/special/asin]: https://github.com/stdlib-js/math-iter-special-asin
 
-[@stdlib/math/iter/special/asinh]: https://github.com/stdlib-js/math-iter-special-asinh/tree/esm
+[@stdlib/math/iter/special/asinh]: https://github.com/stdlib-js/math-iter-special-asinh
 
-[@stdlib/math/iter/special/atan]: https://github.com/stdlib-js/math-iter-special-atan/tree/esm
+[@stdlib/math/iter/special/atan]: https://github.com/stdlib-js/math-iter-special-atan
 
-[@stdlib/math/iter/special/atan2]: https://github.com/stdlib-js/math-iter-special-atan2/tree/esm
+[@stdlib/math/iter/special/atan2]: https://github.com/stdlib-js/math-iter-special-atan2
 
-[@stdlib/math/iter/special/atanh]: https://github.com/stdlib-js/math-iter-special-atanh/tree/esm
+[@stdlib/math/iter/special/atanh]: https://github.com/stdlib-js/math-iter-special-atanh
 
-[@stdlib/math/iter/special/avercos]: https://github.com/stdlib-js/math-iter-special-avercos/tree/esm
+[@stdlib/math/iter/special/avercos]: https://github.com/stdlib-js/math-iter-special-avercos
 
-[@stdlib/math/iter/special/aversin]: https://github.com/stdlib-js/math-iter-special-aversin/tree/esm
+[@stdlib/math/iter/special/aversin]: https://github.com/stdlib-js/math-iter-special-aversin
 
-[@stdlib/math/iter/special/besselj0]: https://github.com/stdlib-js/math-iter-special-besselj0/tree/esm
+[@stdlib/math/iter/special/besselj0]: https://github.com/stdlib-js/math-iter-special-besselj0
 
-[@stdlib/math/iter/special/besselj1]: https://github.com/stdlib-js/math-iter-special-besselj1/tree/esm
+[@stdlib/math/iter/special/besselj1]: https://github.com/stdlib-js/math-iter-special-besselj1
 
-[@stdlib/math/iter/special/bessely0]: https://github.com/stdlib-js/math-iter-special-bessely0/tree/esm
+[@stdlib/math/iter/special/bessely0]: https://github.com/stdlib-js/math-iter-special-bessely0
 
-[@stdlib/math/iter/special/bessely1]: https://github.com/stdlib-js/math-iter-special-bessely1/tree/esm
+[@stdlib/math/iter/special/bessely1]: https://github.com/stdlib-js/math-iter-special-bessely1
 
-[@stdlib/math/iter/special/beta]: https://github.com/stdlib-js/math-iter-special-beta/tree/esm
+[@stdlib/math/iter/special/beta]: https://github.com/stdlib-js/math-iter-special-beta
 
-[@stdlib/math/iter/special/betaln]: https://github.com/stdlib-js/math-iter-special-betaln/tree/esm
+[@stdlib/math/iter/special/betaln]: https://github.com/stdlib-js/math-iter-special-betaln
 
-[@stdlib/math/iter/special/binet]: https://github.com/stdlib-js/math-iter-special-binet/tree/esm
+[@stdlib/math/iter/special/binet]: https://github.com/stdlib-js/math-iter-special-binet
 
-[@stdlib/math/iter/special/cbrt]: https://github.com/stdlib-js/math-iter-special-cbrt/tree/esm
+[@stdlib/math/iter/special/cbrt]: https://github.com/stdlib-js/math-iter-special-cbrt
 
-[@stdlib/math/iter/special/ceil]: https://github.com/stdlib-js/math-iter-special-ceil/tree/esm
+[@stdlib/math/iter/special/ceil]: https://github.com/stdlib-js/math-iter-special-ceil
 
-[@stdlib/math/iter/special/ceil10]: https://github.com/stdlib-js/math-iter-special-ceil10/tree/esm
+[@stdlib/math/iter/special/ceil10]: https://github.com/stdlib-js/math-iter-special-ceil10
 
-[@stdlib/math/iter/special/ceil2]: https://github.com/stdlib-js/math-iter-special-ceil2/tree/esm
+[@stdlib/math/iter/special/ceil2]: https://github.com/stdlib-js/math-iter-special-ceil2
 
-[@stdlib/math/iter/special/cos]: https://github.com/stdlib-js/math-iter-special-cos/tree/esm
+[@stdlib/math/iter/special/cos]: https://github.com/stdlib-js/math-iter-special-cos
 
-[@stdlib/math/iter/special/cosh]: https://github.com/stdlib-js/math-iter-special-cosh/tree/esm
+[@stdlib/math/iter/special/cosh]: https://github.com/stdlib-js/math-iter-special-cosh
 
-[@stdlib/math/iter/special/cosm1]: https://github.com/stdlib-js/math-iter-special-cosm1/tree/esm
+[@stdlib/math/iter/special/cosm1]: https://github.com/stdlib-js/math-iter-special-cosm1
 
-[@stdlib/math/iter/special/cospi]: https://github.com/stdlib-js/math-iter-special-cospi/tree/esm
+[@stdlib/math/iter/special/cospi]: https://github.com/stdlib-js/math-iter-special-cospi
 
-[@stdlib/math/iter/special/covercos]: https://github.com/stdlib-js/math-iter-special-covercos/tree/esm
+[@stdlib/math/iter/special/covercos]: https://github.com/stdlib-js/math-iter-special-covercos
 
-[@stdlib/math/iter/special/coversin]: https://github.com/stdlib-js/math-iter-special-coversin/tree/esm
+[@stdlib/math/iter/special/coversin]: https://github.com/stdlib-js/math-iter-special-coversin
 
-[@stdlib/math/iter/special/deg2rad]: https://github.com/stdlib-js/math-iter-special-deg2rad/tree/esm
+[@stdlib/math/iter/special/deg2rad]: https://github.com/stdlib-js/math-iter-special-deg2rad
 
-[@stdlib/math/iter/special/digamma]: https://github.com/stdlib-js/math-iter-special-digamma/tree/esm
+[@stdlib/math/iter/special/digamma]: https://github.com/stdlib-js/math-iter-special-digamma
 
-[@stdlib/math/iter/special/dirac-delta]: https://github.com/stdlib-js/math-iter-special-dirac-delta/tree/esm
+[@stdlib/math/iter/special/dirac-delta]: https://github.com/stdlib-js/math-iter-special-dirac-delta
 
-[@stdlib/math/iter/special/dirichlet-eta]: https://github.com/stdlib-js/math-iter-special-dirichlet-eta/tree/esm
+[@stdlib/math/iter/special/dirichlet-eta]: https://github.com/stdlib-js/math-iter-special-dirichlet-eta
 
-[@stdlib/math/iter/special/ellipe]: https://github.com/stdlib-js/math-iter-special-ellipe/tree/esm
+[@stdlib/math/iter/special/ellipe]: https://github.com/stdlib-js/math-iter-special-ellipe
 
-[@stdlib/math/iter/special/ellipk]: https://github.com/stdlib-js/math-iter-special-ellipk/tree/esm
+[@stdlib/math/iter/special/ellipk]: https://github.com/stdlib-js/math-iter-special-ellipk
 
-[@stdlib/math/iter/special/erf]: https://github.com/stdlib-js/math-iter-special-erf/tree/esm
+[@stdlib/math/iter/special/erf]: https://github.com/stdlib-js/math-iter-special-erf
 
-[@stdlib/math/iter/special/erfc]: https://github.com/stdlib-js/math-iter-special-erfc/tree/esm
+[@stdlib/math/iter/special/erfc]: https://github.com/stdlib-js/math-iter-special-erfc
 
-[@stdlib/math/iter/special/erfcinv]: https://github.com/stdlib-js/math-iter-special-erfcinv/tree/esm
+[@stdlib/math/iter/special/erfcinv]: https://github.com/stdlib-js/math-iter-special-erfcinv
 
-[@stdlib/math/iter/special/erfinv]: https://github.com/stdlib-js/math-iter-special-erfinv/tree/esm
+[@stdlib/math/iter/special/erfinv]: https://github.com/stdlib-js/math-iter-special-erfinv
 
-[@stdlib/math/iter/special/exp]: https://github.com/stdlib-js/math-iter-special-exp/tree/esm
+[@stdlib/math/iter/special/exp]: https://github.com/stdlib-js/math-iter-special-exp
 
-[@stdlib/math/iter/special/exp10]: https://github.com/stdlib-js/math-iter-special-exp10/tree/esm
+[@stdlib/math/iter/special/exp10]: https://github.com/stdlib-js/math-iter-special-exp10
 
-[@stdlib/math/iter/special/exp2]: https://github.com/stdlib-js/math-iter-special-exp2/tree/esm
+[@stdlib/math/iter/special/exp2]: https://github.com/stdlib-js/math-iter-special-exp2
 
-[@stdlib/math/iter/special/expit]: https://github.com/stdlib-js/math-iter-special-expit/tree/esm
+[@stdlib/math/iter/special/expit]: https://github.com/stdlib-js/math-iter-special-expit
 
-[@stdlib/math/iter/special/expm1]: https://github.com/stdlib-js/math-iter-special-expm1/tree/esm
+[@stdlib/math/iter/special/expm1]: https://github.com/stdlib-js/math-iter-special-expm1
 
-[@stdlib/math/iter/special/expm1rel]: https://github.com/stdlib-js/math-iter-special-expm1rel/tree/esm
+[@stdlib/math/iter/special/expm1rel]: https://github.com/stdlib-js/math-iter-special-expm1rel
 
-[@stdlib/math/iter/special/factorial]: https://github.com/stdlib-js/math-iter-special-factorial/tree/esm
+[@stdlib/math/iter/special/factorial]: https://github.com/stdlib-js/math-iter-special-factorial
 
-[@stdlib/math/iter/special/factorialln]: https://github.com/stdlib-js/math-iter-special-factorialln/tree/esm
+[@stdlib/math/iter/special/factorialln]: https://github.com/stdlib-js/math-iter-special-factorialln
 
-[@stdlib/math/iter/special/floor]: https://github.com/stdlib-js/math-iter-special-floor/tree/esm
+[@stdlib/math/iter/special/floor]: https://github.com/stdlib-js/math-iter-special-floor
 
-[@stdlib/math/iter/special/floor10]: https://github.com/stdlib-js/math-iter-special-floor10/tree/esm
+[@stdlib/math/iter/special/floor10]: https://github.com/stdlib-js/math-iter-special-floor10
 
-[@stdlib/math/iter/special/floor2]: https://github.com/stdlib-js/math-iter-special-floor2/tree/esm
+[@stdlib/math/iter/special/floor2]: https://github.com/stdlib-js/math-iter-special-floor2
 
-[@stdlib/math/iter/special/fresnelc]: https://github.com/stdlib-js/math-iter-special-fresnelc/tree/esm
+[@stdlib/math/iter/special/fresnelc]: https://github.com/stdlib-js/math-iter-special-fresnelc
 
-[@stdlib/math/iter/special/fresnels]: https://github.com/stdlib-js/math-iter-special-fresnels/tree/esm
+[@stdlib/math/iter/special/fresnels]: https://github.com/stdlib-js/math-iter-special-fresnels
 
-[@stdlib/math/iter/special/gamma]: https://github.com/stdlib-js/math-iter-special-gamma/tree/esm
+[@stdlib/math/iter/special/gamma]: https://github.com/stdlib-js/math-iter-special-gamma
 
-[@stdlib/math/iter/special/gamma1pm1]: https://github.com/stdlib-js/math-iter-special-gamma1pm1/tree/esm
+[@stdlib/math/iter/special/gamma1pm1]: https://github.com/stdlib-js/math-iter-special-gamma1pm1
 
-[@stdlib/math/iter/special/gammaln]: https://github.com/stdlib-js/math-iter-special-gammaln/tree/esm
+[@stdlib/math/iter/special/gammaln]: https://github.com/stdlib-js/math-iter-special-gammaln
 
-[@stdlib/math/iter/special/hacovercos]: https://github.com/stdlib-js/math-iter-special-hacovercos/tree/esm
+[@stdlib/math/iter/special/hacovercos]: https://github.com/stdlib-js/math-iter-special-hacovercos
 
-[@stdlib/math/iter/special/hacoversin]: https://github.com/stdlib-js/math-iter-special-hacoversin/tree/esm
+[@stdlib/math/iter/special/hacoversin]: https://github.com/stdlib-js/math-iter-special-hacoversin
 
-[@stdlib/math/iter/special/havercos]: https://github.com/stdlib-js/math-iter-special-havercos/tree/esm
+[@stdlib/math/iter/special/havercos]: https://github.com/stdlib-js/math-iter-special-havercos
 
-[@stdlib/math/iter/special/haversin]: https://github.com/stdlib-js/math-iter-special-haversin/tree/esm
+[@stdlib/math/iter/special/haversin]: https://github.com/stdlib-js/math-iter-special-haversin
 
-[@stdlib/math/iter/special/inv]: https://github.com/stdlib-js/math-iter-special-inv/tree/esm
+[@stdlib/math/iter/special/inv]: https://github.com/stdlib-js/math-iter-special-inv
 
-[@stdlib/math/iter/special/ln]: https://github.com/stdlib-js/math-iter-special-ln/tree/esm
+[@stdlib/math/iter/special/ln]: https://github.com/stdlib-js/math-iter-special-ln
 
-[@stdlib/math/iter/special/log]: https://github.com/stdlib-js/math-iter-special-log/tree/esm
+[@stdlib/math/iter/special/log]: https://github.com/stdlib-js/math-iter-special-log
 
-[@stdlib/math/iter/special/log10]: https://github.com/stdlib-js/math-iter-special-log10/tree/esm
+[@stdlib/math/iter/special/log10]: https://github.com/stdlib-js/math-iter-special-log10
 
-[@stdlib/math/iter/special/log1mexp]: https://github.com/stdlib-js/math-iter-special-log1mexp/tree/esm
+[@stdlib/math/iter/special/log1mexp]: https://github.com/stdlib-js/math-iter-special-log1mexp
 
-[@stdlib/math/iter/special/log1p]: https://github.com/stdlib-js/math-iter-special-log1p/tree/esm
+[@stdlib/math/iter/special/log1p]: https://github.com/stdlib-js/math-iter-special-log1p
 
-[@stdlib/math/iter/special/log1pexp]: https://github.com/stdlib-js/math-iter-special-log1pexp/tree/esm
+[@stdlib/math/iter/special/log1pexp]: https://github.com/stdlib-js/math-iter-special-log1pexp
 
-[@stdlib/math/iter/special/log2]: https://github.com/stdlib-js/math-iter-special-log2/tree/esm
+[@stdlib/math/iter/special/log2]: https://github.com/stdlib-js/math-iter-special-log2
 
-[@stdlib/math/iter/special/logit]: https://github.com/stdlib-js/math-iter-special-logit/tree/esm
+[@stdlib/math/iter/special/logit]: https://github.com/stdlib-js/math-iter-special-logit
 
-[@stdlib/math/iter/special/pow]: https://github.com/stdlib-js/math-iter-special-pow/tree/esm
+[@stdlib/math/iter/special/pow]: https://github.com/stdlib-js/math-iter-special-pow
 
-[@stdlib/math/iter/special/rad2deg]: https://github.com/stdlib-js/math-iter-special-rad2deg/tree/esm
+[@stdlib/math/iter/special/rad2deg]: https://github.com/stdlib-js/math-iter-special-rad2deg
 
-[@stdlib/math/iter/special/ramp]: https://github.com/stdlib-js/math-iter-special-ramp/tree/esm
+[@stdlib/math/iter/special/ramp]: https://github.com/stdlib-js/math-iter-special-ramp
 
-[@stdlib/math/iter/special/riemann-zeta]: https://github.com/stdlib-js/math-iter-special-riemann-zeta/tree/esm
+[@stdlib/math/iter/special/riemann-zeta]: https://github.com/stdlib-js/math-iter-special-riemann-zeta
 
-[@stdlib/math/iter/special/round]: https://github.com/stdlib-js/math-iter-special-round/tree/esm
+[@stdlib/math/iter/special/round]: https://github.com/stdlib-js/math-iter-special-round
 
-[@stdlib/math/iter/special/round10]: https://github.com/stdlib-js/math-iter-special-round10/tree/esm
+[@stdlib/math/iter/special/round10]: https://github.com/stdlib-js/math-iter-special-round10
 
-[@stdlib/math/iter/special/round2]: https://github.com/stdlib-js/math-iter-special-round2/tree/esm
+[@stdlib/math/iter/special/round2]: https://github.com/stdlib-js/math-iter-special-round2
 
-[@stdlib/math/iter/special/rsqrt]: https://github.com/stdlib-js/math-iter-special-rsqrt/tree/esm
+[@stdlib/math/iter/special/rsqrt]: https://github.com/stdlib-js/math-iter-special-rsqrt
 
-[@stdlib/math/iter/special/signum]: https://github.com/stdlib-js/math-iter-special-signum/tree/esm
+[@stdlib/math/iter/special/signum]: https://github.com/stdlib-js/math-iter-special-signum
 
-[@stdlib/math/iter/special/sin]: https://github.com/stdlib-js/math-iter-special-sin/tree/esm
+[@stdlib/math/iter/special/sin]: https://github.com/stdlib-js/math-iter-special-sin
 
-[@stdlib/math/iter/special/sinc]: https://github.com/stdlib-js/math-iter-special-sinc/tree/esm
+[@stdlib/math/iter/special/sinc]: https://github.com/stdlib-js/math-iter-special-sinc
 
-[@stdlib/math/iter/special/sinh]: https://github.com/stdlib-js/math-iter-special-sinh/tree/esm
+[@stdlib/math/iter/special/sinh]: https://github.com/stdlib-js/math-iter-special-sinh
 
-[@stdlib/math/iter/special/sinpi]: https://github.com/stdlib-js/math-iter-special-sinpi/tree/esm
+[@stdlib/math/iter/special/sinpi]: https://github.com/stdlib-js/math-iter-special-sinpi
 
-[@stdlib/math/iter/special/spence]: https://github.com/stdlib-js/math-iter-special-spence/tree/esm
+[@stdlib/math/iter/special/spence]: https://github.com/stdlib-js/math-iter-special-spence
 
-[@stdlib/math/iter/special/sqrt]: https://github.com/stdlib-js/math-iter-special-sqrt/tree/esm
+[@stdlib/math/iter/special/sqrt]: https://github.com/stdlib-js/math-iter-special-sqrt
 
-[@stdlib/math/iter/special/sqrt1pm1]: https://github.com/stdlib-js/math-iter-special-sqrt1pm1/tree/esm
+[@stdlib/math/iter/special/sqrt1pm1]: https://github.com/stdlib-js/math-iter-special-sqrt1pm1
 
-[@stdlib/math/iter/special/tan]: https://github.com/stdlib-js/math-iter-special-tan/tree/esm
+[@stdlib/math/iter/special/tan]: https://github.com/stdlib-js/math-iter-special-tan
 
-[@stdlib/math/iter/special/tanh]: https://github.com/stdlib-js/math-iter-special-tanh/tree/esm
+[@stdlib/math/iter/special/tanh]: https://github.com/stdlib-js/math-iter-special-tanh
 
-[@stdlib/math/iter/special/trigamma]: https://github.com/stdlib-js/math-iter-special-trigamma/tree/esm
+[@stdlib/math/iter/special/trigamma]: https://github.com/stdlib-js/math-iter-special-trigamma
 
-[@stdlib/math/iter/special/trunc]: https://github.com/stdlib-js/math-iter-special-trunc/tree/esm
+[@stdlib/math/iter/special/trunc]: https://github.com/stdlib-js/math-iter-special-trunc
 
-[@stdlib/math/iter/special/trunc10]: https://github.com/stdlib-js/math-iter-special-trunc10/tree/esm
+[@stdlib/math/iter/special/trunc10]: https://github.com/stdlib-js/math-iter-special-trunc10
 
-[@stdlib/math/iter/special/trunc2]: https://github.com/stdlib-js/math-iter-special-trunc2/tree/esm
+[@stdlib/math/iter/special/trunc2]: https://github.com/stdlib-js/math-iter-special-trunc2
 
-[@stdlib/math/iter/special/vercos]: https://github.com/stdlib-js/math-iter-special-vercos/tree/esm
+[@stdlib/math/iter/special/vercos]: https://github.com/stdlib-js/math-iter-special-vercos
 
-[@stdlib/math/iter/special/versin]: https://github.com/stdlib-js/math-iter-special-versin/tree/esm
+[@stdlib/math/iter/special/versin]: https://github.com/stdlib-js/math-iter-special-versin
 
 <!-- </toc-links> -->
 
