@@ -133,14 +133,14 @@
     "@stdlib/math-iter-special-trunc2": "^0.1.0",
     "@stdlib/math-iter-special-vercos": "^0.1.0",
     "@stdlib/math-iter-special-versin": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
-    "@stdlib/assert-is-iterator-like": "^0.1.0",
+    "@stdlib/assert-is-iterator-like": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/iter-linspace": "^0.1.0",
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.0",
     "@stdlib/math-base-special-abs2": "^0.1.0",
     "@stdlib/math-base-special-acos": "^0.1.0",
@@ -218,7 +218,7 @@
     "@stdlib/math-base-special-rad2deg": "^0.1.0",
     "@stdlib/math-base-special-ramp": "^0.1.0",
     "@stdlib/math-base-special-riemann-zeta": "^0.1.0",
-    "@stdlib/math-base-special-round": "^0.1.0",
+    "@stdlib/math-base-special-round": "^0.1.1",
     "@stdlib/math-base-special-round10": "^0.1.0",
     "@stdlib/math-base-special-round2": "^0.1.0",
     "@stdlib/math-base-special-rsqrt": "^0.1.0",
