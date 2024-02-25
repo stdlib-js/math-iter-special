@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-special/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterAbs, iterAbs2, iterAcos, iterAcosh, iterAcot, iterAcoth, iterAcovercos, iterAcoversin, iterAhavercos, iterAhaversin, iterAsin, iterAsinh, iterAtan, iterAtan2, iterAtanh, iterAvercos, iterAversin, iterBesselj0, iterBesselj1, iterBessely0, iterBessely1, iterBeta, iterBetaln, iterBinet, iterCbrt, iterCeil, iterCeil10, iterCeil2, iterCos, iterCosh, iterCosm1, iterCospi, iterCovercos, iterCoversin, iterDeg2rad, iterDigamma, iterDiracDelta, iterEllipe, iterEllipk, iterErf, iterErfc, iterErfcinv, iterErfinv, iterEta, iterExp, iterExp10, iterExp2, iterExpit, iterExpm1, iterExpm1rel, iterFactorial, iterFactorialln, iterFloor, iterFloor10, iterFloor2, iterFresnelc, iterFresnels, iterGamma, iterGamma1pm1, iterGammaln, iterHacovercos, iterHacoversin, iterHavercos, iterHaversin, iterInv, iterLn, iterLog, iterLog10, iterLog1mexp, iterLog1p, iterLog1pexp, iterLog2, iterLogit, iterPow, iterRad2deg, iterRamp, iterRound, iterRound10, iterRound2, iterRsqrt, iterSignum, iterSin, iterSinc, iterSinh, iterSinpi, iterSpence, iterSqrt, iterSqrt1pm1, iterTan, iterTanh, iterTrigamma, iterTrunc, iterTrunc10, iterTrunc2, iterVercos, iterVersin, iterZeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@v0.2.1-deno/mod.js';
+import { iterAbs, iterAbs2, iterAcos, iterAcosh, iterAcot, iterAcoth, iterAcovercos, iterAcoversin, iterAhavercos, iterAhaversin, iterAsin, iterAsinh, iterAtan, iterAtan2, iterAtanh, iterAvercos, iterAversin, iterBesselj0, iterBesselj1, iterBessely0, iterBessely1, iterBeta, iterBetaln, iterBinet, iterCbrt, iterCeil, iterCeil10, iterCeil2, iterCos, iterCosh, iterCosm1, iterCospi, iterCovercos, iterCoversin, iterDeg2rad, iterDigamma, iterDiracDelta, iterEllipe, iterEllipk, iterErf, iterErfc, iterErfcinv, iterErfinv, iterEta, iterExp, iterExp10, iterExp2, iterExpit, iterExpm1, iterExpm1rel, iterFactorial, iterFactorialln, iterFloor, iterFloor10, iterFloor2, iterFresnelc, iterFresnels, iterGamma, iterGamma1pm1, iterGammaln, iterHacovercos, iterHacoversin, iterHavercos, iterHaversin, iterInv, iterLn, iterLog, iterLog10, iterLog1mexp, iterLog1p, iterLog1pexp, iterLog2, iterLogit, iterPow, iterRad2deg, iterRamp, iterRound, iterRound10, iterRound2, iterRsqrt, iterSignum, iterSin, iterSinc, iterSinh, iterSinpi, iterSpence, iterSqrt, iterSqrt1pm1, iterTan, iterTanh, iterTrigamma, iterTrunc, iterTrunc10, iterTrunc2, iterVercos, iterVersin, iterZeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@deno/mod.js';
 ```
 
 #### ns
@@ -182,7 +187,7 @@ The namespace contains the following functions for creating iterator protocol-co
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@v0.2.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
