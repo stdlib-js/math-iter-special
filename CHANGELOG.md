@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-02-03)
 
 <section class="packages">
 
@@ -32,6 +32,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`50843c9`](https://github.com/stdlib-js/stdlib/commit/50843c9502e3c9afa2f58d0957248e8ed3bd4609) - **docs:** update related packages sections [(#4808)](https://github.com/stdlib-js/stdlib/pull/4808) _(by stdlib-bot)_
 -   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
 -   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
 
