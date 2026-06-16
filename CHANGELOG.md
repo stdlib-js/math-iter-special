@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`34bf00b`](https://github.com/stdlib-js/stdlib/commit/34bf00b30316178349622f2667bd3cb35eb9296b) - **docs:** add links [(#12844)](https://github.com/stdlib-js/stdlib/pull/12844) _(by Philipp Burckhardt)_
 -   [`406283c`](https://github.com/stdlib-js/stdlib/commit/406283c617ba87f829388e0dafb12caf15ba72db) - **docs:** update `math/iter/special` TypeScript declarations [(#12590)](https://github.com/stdlib-js/stdlib/pull/12590) _(by stdlib-bot)_
 -   [`2ef6b64`](https://github.com/stdlib-js/stdlib/commit/2ef6b64a00646808c45bd211bb421a52eabd0a41) - **docs:** fix TSDoc issues in several `math/iter` declarations [(#12462)](https://github.com/stdlib-js/stdlib/pull/12462) _(by Philipp Burckhardt, Athan Reines)_
 -   [`2df9472`](https://github.com/stdlib-js/stdlib/commit/2df9472ff8b4c8dc5b693dac2f64516834d7a5b3) - **chore:** migrate `math/iter/special` examples to `random/iter/uniform` [(#11950)](https://github.com/stdlib-js/stdlib/pull/11950) _(by Philipp Burckhardt)_
